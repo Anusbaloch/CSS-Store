@@ -1,126 +1,158 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+
 }
-.nav{
+
+.nav {
     height: 60px;
     background-color: black;
     display: flex;
     justify-content: left;
     align-items: center;
-    
 
 
-}
-ul{
 
 }
-li{
-list-style: none;
-display: inline-block;
-margin-right: 35px;
+
+ul {}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 35px;
 }
-a{
+
+a {
     text-decoration: none;
     color: aliceblue;
 }
-.main{
+
+.main {
     font-size: larger;
     color: rgb(224, 84, 19)
 }
-button{
+
+button {
     background-color: orangered;
     padding-right: 6px;
     color: rgb(3, 3, 3);
     border-radius: 0px;
 }
-button:hover{
+
+button:hover {
     background-color: blue;
     color: #ffffff;
 }
-input{
+
+input {
     margin-left: 574px;
     outline-color: orangered;
     padding-left: 7px;
 }
-input:hover{
+
+input:hover {
     outline-color: rgb(235, 113, 57);
 }
-.main:hover{
+
+.main:hover {
     color: aliceblue;
 }
-a:hover{
+
+a {}
+
+a:hover {
     color: orangered;
+
+
+
+
 }
-img{
+
+img {
     height: 235px;
     width: 100%;
 }
-.bomb{
-    background-color: rgb(255, 255, 255);
-    width:100%;
+
+.bomb {
+    background-color: orangered;
+    width: 100%;
     height: 400px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
-  
+
+
 }
-.box{
+
+.box {
     width: 200px;
-height: 200px;
-background: #07abecf5;
-margin: 10px;
-background-image: url();
-padding-bottom: 66px;
-padding-right: 44px;
-overflow:hidden;
-border-radius: 7px;
+    height: 200px;
+    background: #07abecf5;
+    padding-bottom: 66px;
+    padding-right: 44px;
+    overflow: hidden;
+    border-radius: 7px;
+    transition: all 1s;
 }
-.box p{
+
+.box:hover {
+    /* transform: scale(1.1); */
+    transform: translateY(-10px);
+}
+
+.box p {
     color: #000;
 }
-.box h2{
+
+.box h2 {
     text-align: center;
     margin-left: 40px;
 }
-.box:hover{
+
+.box:hover {
     box-shadow: 0px 1px 11px 2px;
 }
-.main2{
+
+.main2 {
     text-align: center;
     text-decoration: underline;
     color: #000;
     margin-top: 29px;
-    
-    
+    text-shadow: 6px -3px 5px #3a164c;
+
+
+
 }
-.main2:hover{
+
+.main2:hover {
     color: orangered;
 }
-body{
-    
-}
+
+body {}
 
 
 
-.footer{
+.footer {
     background-color: #000;
     height: 60px;
 }
-.footer h2{
+
+.footer h2 {
     color: #ffffff;
     text-align: center;
 }
- p{
+
+p {
     color: #ffffff;
     text-align: center;
 }
-.footer h2:hover{
+
+.footer h2:hover {
     color: orangered;
 }
-.footer p:hover{
+
+.footer p:hover {
     color: orangered;
 }
